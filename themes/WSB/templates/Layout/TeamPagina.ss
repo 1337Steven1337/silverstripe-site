@@ -9,6 +9,8 @@ Welkom bij de <b>$Title</b> pagina!
     $getVolledigeNaam<br/>
 <% end_loop %>
 
+
+test
 <h2>Teamtaken:</h2>
 <% loop $Taken %>
     $getAlleNamen moeten $Taakbeschrijving $getNiceDatum om $getNiceTijd<br/>
