@@ -1,0 +1,24 @@
+{
+    "name": "andrewhoule/silverstripe-listpage",
+    "description": "Basic list page to help content managers organize a list of items like links and/or documents",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "list", "links", "resources", "documents"],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Andrew Houle",
+        "homepage": "http://andyhoule.com",
+        "role": "Developer"
+    }],
+    "require": {
+        "silverstripe/cms": "3.*",
+        "silverstripe/framework": "3.*",
+        "silverstripe/display-logic": "*",
+        "undefinedoffset/sortablegridfield": "*"
+    },
+    "suggest": {
+        "unclecheese/betterbuttons": "*"
+    },
+    "extra": {
+        "installer-name": "listpage"
+    }
+}
