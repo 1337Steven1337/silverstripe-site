@@ -10,7 +10,6 @@ Welkom bij de <b>$Title</b> pagina!
 <% end_loop %>
 
 
-test
 <h2>Teamtaken:</h2>
 <% loop $Taken %>
     $getAlleNamen moeten $Taakbeschrijving $getNiceDatum om $getNiceTijd<br/>
